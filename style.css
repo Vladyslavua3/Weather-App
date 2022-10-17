@@ -1,0 +1,64 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+body{
+    background: linear-gradient(320deg, #eb92be,#ffef78,#63c9b4);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-display: swap;
+    height: 100%
+}
+
+ .weather__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(5.5px);
+    height: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35,35, 0.1);
+    color: #232323;
+    width: 200px;
+    font-size: 20px;
+}
+.package{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.city{
+    border:1px solid rgba(255, 255, 255, 0.01);  
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35,35, 0.1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#city{
+    font-family: inherit;
+    border-radius: 5px;
+}
+.name{
+    font-size: 25px;
+}
